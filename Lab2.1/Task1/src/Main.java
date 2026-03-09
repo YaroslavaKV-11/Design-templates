@@ -25,6 +25,21 @@ public class Main {
             totalProfit += drink.getProfit();
         }
 
+        drink = shop.orderDrink("tea");
+        if (drink != null) {
+            totalProfit += drink.getProfit();
+        }
+
+        drink = shop.orderDrink("hotchocolate");
+        if (drink != null) {
+            totalProfit += drink.getProfit();
+        }
+
+        drink = shop.orderDrink("greentea");
+        if (drink != null) {
+            totalProfit += drink.getProfit();
+        }
+
         System.out.println("Total profit: " + totalProfit);
     }
 }
