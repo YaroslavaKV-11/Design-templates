@@ -1,0 +1,3 @@
+Design patterns are useful.
+Singleton allows creating only one object.
+This is a simple text editor.
